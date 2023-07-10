@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
-* {
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");* {
 	box-sizing: border-box;
 	margin: 0;
 	color: #fff;
@@ -109,4 +108,9 @@ footer {
 
 .section2 p:nth-child(2) {
 	margin-bottom: 20px;
+}
+
+.footer-icon,
+.main-button {
+	cursor: pointer;
 }

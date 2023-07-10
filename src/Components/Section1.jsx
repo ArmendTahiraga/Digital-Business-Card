@@ -7,11 +7,11 @@ function Section1() {
 			<h2 className="section1-title">Laura Smith</h2>
 			<p className="section1-job">Frontend Developer</p>
 			<div className="button-container">
-				<button className="email-button">
+				<button className="email-button main-button">
 					<img src={emailIcon} alt="" />
 					Email
 				</button>
-				<button className="linkedin-button">
+				<button className="linkedin-button main-button">
 					<img src={linkedinIcon} alt="" />
 					Linkedin
 				</button>

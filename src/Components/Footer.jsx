@@ -6,10 +6,10 @@ import githubIcon from "../../pictures/github-icon.png";
 function Footer() {
 	return (
 		<footer>
-			<img src={twitterIcon} alt="" />
-			<img src={facebookIcon} alt="" />
-			<img src={instagramIcon} alt="" />
-			<img src={githubIcon} alt="" />
+			<img src={twitterIcon} alt="" className="footer-icon" />
+			<img src={facebookIcon} alt="" className="footer-icon" />
+			<img src={instagramIcon} alt="" className="footer-icon" />
+			<img src={githubIcon} alt="" className="footer-icon" />
 		</footer>
 	);
 }
